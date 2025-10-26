@@ -1,0 +1,19 @@
+{
+	"name": "pipeline5",
+	"properties": {
+		"activities": [
+			{
+				"name": "Fail1",
+				"description": "",
+				"type": "Fail",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"message": "\"this is not execute\"",
+					"errorCode": "406"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
