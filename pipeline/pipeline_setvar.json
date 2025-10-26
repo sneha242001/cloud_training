@@ -1,0 +1,30 @@
+{
+	"name": "pipeline_setvar",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "time",
+					"value": {
+						"value": "@utcNow()",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"variables": {
+			"time": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
