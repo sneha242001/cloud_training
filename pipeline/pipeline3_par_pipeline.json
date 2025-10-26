@@ -1,5 +1,5 @@
 {
-	"name": "pipeline3",
+	"name": "pipeline3_par_pipeline",
 	"properties": {
 		"activities": [
 			{

@@ -1,5 +1,5 @@
 {
-	"name": "pipeline5",
+	"name": "pipeline5_fail",
 	"properties": {
 		"activities": [
 			{
