@@ -1,0 +1,9 @@
+{
+	"name": "devres",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c1e251c6-ec02-4e52-b50c-6b82a4535202",
+		"tenantId": "76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61"
+	}
+}
