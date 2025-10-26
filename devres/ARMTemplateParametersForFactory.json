@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "devres"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"Storage3_accountKey": {
+			"value": ""
+		},
+		"ls_adf_accountKey": {
+			"value": ""
+		},
+		"metastorage_accountKey": {
+			"value": ""
+		},
+		"storage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://devresgroup.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://devresgroup.dfs.core.windows.net/"
+		},
+		"Storage3_properties_typeProperties_url": {
+			"value": "https://devresgroup.dfs.core.windows.net/"
+		},
+		"ls_adf_properties_typeProperties_url": {
+			"value": "https://devresgroup.dfs.core.windows.net/"
+		},
+		"metastorage_properties_typeProperties_url": {
+			"value": "https://devresgroup.dfs.core.windows.net/"
+		},
+		"storage2_properties_typeProperties_url": {
+			"value": "https://devresgroup.dfs.core.windows.net/"
+		}
+	}
+}
