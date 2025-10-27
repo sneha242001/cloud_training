@@ -1,0 +1,35 @@
+{
+	"name": "pipeline_appendvar",
+	"properties": {
+		"activities": [
+			{
+				"name": "Append variable1",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "filename",
+					"value": {
+						"value": "@pipeline().parameters.filename",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"filename": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"filename": {
+				"type": "Array",
+				"defaultValue": [
+					"1",
+					"2"
+				]
+			}
+		},
+		"annotations": []
+	}
+}
